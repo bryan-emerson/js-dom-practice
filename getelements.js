@@ -11,15 +11,18 @@
  */
 
 // 1. Get the element with an ID of 'first'
+let first = document.getElementById('first');
 
 // 2. Now delete that first element (in the html file), and re-run your code.
 //    What changed?
 
 // 3. Get the elements with a class of 'second' with getElementsByClassName:
+let second = document.getElementsByName('second');
 
 // 4. Delete one of the elements with a class of 'second' and refresh the page.
 //    Do you get a similar result?
 
 // 5. Get the span element using getElementsByTagname:
+let spans = document.getElementsByTagName('span');
 
 // 6. Add a span anywhere, and re-run the last piece of code. What's different?
